@@ -1,0 +1,101 @@
+/* web fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@300;600&display=swap');
+
+/* Work Sans 600 800, Open 400 600 */
+
+
+/* global reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* styling */
+
+html {
+    background: #F5F5F5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 62.5%;
+    font-kerning: normal;
+    text-align: center;
+    color: #2F333E;
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 10rem;
+    color: #FFFFFF;
+    padding: 20rem 0 5rem 0;
+}
+
+h1 span {
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    padding: 8rem 0 4rem 0;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* temporary stand-in for videos */
+img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.panel {
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.panel-narrow {
+    background: #FFFFFF;
+    border-radius: 0 0 2rem 2rem;
+    padding: 4rem 3rem 3rem 3rem;
+    z-index: -1;
+    margin: 0 2rem 0 2rem;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-big {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+#hero {
+    /* background: #2F333E; */
+    background-image: url("images/background.jpg");
+    position: absolute;
+    width: 100%;
+    height: 80rem;
+    z-index: -1;
+}
+
+#tagline {
+    font-size: 3.6rem;
+    color: #FFFFFF;
+    padding: 0 0 15rem 0;
+}
+
+#wrapper {
+    margin: 0 auto 10rem auto;
+    float: top;
+    width: 80%;
+    max-width: 850px;
+}
